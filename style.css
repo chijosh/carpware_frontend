@@ -26,6 +26,14 @@ h1 {
     color: white;
 }
 
+p {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1;
+    color: #00025f; 
+    padding-top: 40px; 
+}
+
 a {
     text-decoration: none;
     color: #944eb8;
@@ -85,6 +93,10 @@ th {
     background: linear-gradient(#00028c, #6c5ce7);
 }
 
+.title-text {
+    padding: 50px;
+}
+
 
 .navbar {
     padding: 0 0 4.5rem;
@@ -124,6 +136,9 @@ th {
     -webkit-border-radius: 26;
     -moz-border-radius: 26;
     border-radius: 26px;
+    font-weight: bold;
+    border-radius: 2rem;
+    padding: 0.5rem 2rem;
 }
 
 
