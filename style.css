@@ -1,8 +1,6 @@
 body {
     padding: 0px;
     font-family: Quicksand, sans-serif;
-    color: #4a4a4a;
-    background-color: #6c5ce7;
 
 }
 
@@ -15,7 +13,8 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+h6 {
     margin: 0
 }
 
@@ -26,6 +25,20 @@ h1 {
     color: white;
     font-weight: 700;
 }
+
+h3 {
+    font-family: 'Montserrat-Bold' sans-serif;
+    font-weight: bold;
+}
+
+h6 {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1;
+    padding-top: 10px;
+    color: #afafaf;
+}
+
 
 p {
     font-family: 'Montserrat-Black', sans-serif;
@@ -148,3 +161,23 @@ th {
     transform: rotate(15deg);
 }
 
+/* Features section */
+
+#features {
+    padding: 7% 15%;
+
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: #00028c;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #6c5ce7;
+}
