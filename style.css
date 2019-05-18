@@ -27,7 +27,7 @@ h1 {
 }
 
 h3 {
-    font-family: 'Montserrat-Bold' sans-serif;
+    font-family: 'Montserrat-Bold'sans-serif;
     font-weight: bold;
 }
 
@@ -44,8 +44,8 @@ p {
     font-family: 'Montserrat-Black', sans-serif;
     font-size: 1.2rem;
     line-height: 1;
-    color: #c8c9ff; 
-    padding-top: 40px; 
+    color: #c8c9ff;
+    padding-top: 40px;
 }
 
 a {
@@ -158,13 +158,17 @@ th {
 
 .title-image {
     width: 80%;
-    transform: rotate(15deg);
+}
+
+.title-image:hover {
+    transform: rotate(5deg);
+    transition: 5s ease-in-out .5s;
 }
 
 /* Features section */
 
 #features {
-    padding: 7% 15%;
+    padding: 7% 10%;
 
 }
 
