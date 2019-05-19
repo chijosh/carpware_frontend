@@ -56,7 +56,7 @@
               <a class="nav-link" href="">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">About Us</a>
+              <a class="nav-link" href="#cta">Contact</a>
             </li>
             <li class="nav-item">
               <button type="submit" class="btn btn-outline-warning nav-download-btn">Try it out</button>
@@ -72,11 +72,10 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
             ea commodo consequat. </p>
-          <button type="submit" class="btn btn-outline-warning download-button"> <i class="fas fa-comment-alt"></i>
-            Contact Us</button>
+          <button type="submit" class="btn download-button">See Our Work</button>
         </div>
         <div class="col-md-6 col-sm-12">
-          <img class="title-image" src="fish.png" alt="carp-fish-img">
+          <img class="title-image" src="images/fish.png" alt="carp-fish-img">
         </div>
       </div>
     </div>
@@ -87,30 +86,140 @@
 
   <section id="features">
     <div class="row">
-      <div class="feature-box col-lg-4">
-          <i class="icon fas fa-check-circle  fa-4x"></i>
+      <div class="feature-box col-md-4">
+        <i class="icon fas fa-check-circle  fa-4x"></i>
         <h3>ROI-driven solutions.</h3>
-        <h6>At CarpWare, we help you achieve outstanding business results and gain strategic advantage in your market.</h6>
+        <h6>At CarpWare, we help you achieve outstanding business results and gain strategic advantage in your market.
+        </h6>
       </div>
 
-      <div class="feature-box col-lg-4">
-          <i class="icon fas fa-database fa-4x"></i>
+      <div class="feature-box col-md-4">
+        <i class="icon fas fa-database fa-4x"></i>
         <h3>Software Development</h3>
-        <h6>Leverage on our expertise in custom software engineering to achieve your business goals, disrupt your industry, and delight your customers.</h6>
+        <h6>Leverage on our expertise in custom software engineering to achieve your business goals, disrupt your
+          industry, and delight your customers.</h6>
       </div>
 
 
-      <div class="feature-box col-lg-4">
-          <i class="icon fas fa-phone-square fa-4x"></i>
+      <div class="feature-box col-md-4">
+        <i class="icon fas fa-phone-square fa-4x"></i>
         <h3>Support & Hosting.</h3>
-        <h6>Keep your software, networks, and platforms running smoothly with our efficient maintenance, support, and hosting services.</h6>
+        <h6>Keep your software, networks, and platforms running smoothly with our efficient maintenance, support, and
+          hosting services.</h6>
       </div>
 
     </div>
 
   </section>
 
+  <section id="service">
+    <h3>How We Engage</h3>
+    <div id="service-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>To improve client engagement, boost sales and optimize operations, our development team will use agile
+            methodologies and latest tech trends to create mobile applications your customers will love.</h2>
+          <i class="service-image fab fa-laravel fa-4x"></i>
+          <em class="service-text">Mobile App Development Services</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">Count on us to deliver your new project development on time and on budget. If you
+            are seeking a partner to update and maintain an existing solution, we have a refined project inheritance
+            process.</h2>
+          <img class="service-image" src="images/mobile.png" alt="lady-profile">
+          <em class="service-text">Laravel Project Development</em>
+        </div>
+        <div class="carousel-item"">
+          <h2 class=" testimonial-text">Our quality control team will run manual and automated tests to eliminate
+          problems and bugs, optimizing your software performance.</h2>
+          <img class="service-image" src="images/mobile.png" alt="lady-profile">
+          <em class="service-text">Quality Assurance</em>
+        </div>
+      </div>
 
-</body>
+      <a class="carousel-control-prev" href="#service-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#service-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+
+  </section>
+
+  <!-- Tools -->
+  <section id="service-tools">
+    <img class="service-logo" src="images/svg-logo-laravel-3.png" alt="laravel-image" height="70px">
+    <img class="service-logo" src="images/React-logo-1.png" alt="react-image" height="70px">
+    <img class="service-logo" src="images/vuejs-wide.png" alt="vue-image" height="70px">
+    <span>CarpWare</span>
+  </section>
+  </div>
+
+  <!-- Call To Action Section -->
+
+  <section id="cta">
+    <div class="row">
+      <div class="col-md-6 contact-us">
+        <h1 class="contact-text">Tell Us About Your Project</h1>
+        <em>Our representative will contact you within 24 hours to discuss your project requirements.</em>
+      </div>
+      <div class="col-md-6">
+        <div class="card card-sm text-white" style="width: 350px;">
+          <form class="form-horizontal" action="" method="post">
+            <fieldset>
+              <legend class="card-header text-center">Contact us</legend>
+
+              <!-- Name input-->
+              <div class="form-group">
+                <label class="col-md-5 control-label" for="name">Name</label>
+                <div class="col-md-11">
+                  <input id="name" name="name" type="text" placeholder="Your name" class="form-control">
+                </div>
+              </div>
+
+              <!-- Email input-->
+              <div class="form-group">
+                <label class="col-md-5 control-label" for="email">Your E-mail</label>
+                <div class="col-md-11">
+                  <input id="email" name="email" type="text" placeholder="Your email" class="form-control">
+                </div>
+              </div>
+
+              <!-- Message body -->
+              <div class="form-group">
+                <label class="col-md-5 control-label" for="message">Your message</label>
+                <div class="col-md-11">
+                  <textarea class="form-control" id="message" name="message"
+                    placeholder="Please enter your message here..." rows="5"></textarea>
+                </div>
+              </div>
+
+              <!-- Form actions -->
+              <div class="form-group">
+                <div class="col-md-11 text-right">
+                  <button type="button" class="btn2 btn btn-primary btn-sm">Submit</button>
+                </div>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+
+      </div>
+    </div>
+    </div>
+    </div>
+
+  </section>
+
+<!-- Footer Section -->
+  <section id="footer">
+      <i class="social-icon fab fa-facebook-square"></i>
+      <i class="social-icon fab fa-twitter-square"></i>
+      <i class="social-icon fab fa-instagram"></i>
+      <i class="social-icon fas fa-envelope"></i>
+    <p>© Copyright 2019 CarpWare</p>
+  </section>
 
 </html>
