@@ -280,7 +280,7 @@ li {
 /* Parallax */
 .parallax {
     position: relative;
-    background-image: url('/images/pexels-photo-548084.jpeg');
+    background-image: url('images/pexels-photo-548084.jpeg');
     min-height: 100%;
     background-repeat: no-repeat;
     background-position: center;
